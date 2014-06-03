@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SimpleOne - A Responsive Html5 Ecommerce Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=100" >
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/flexslider.css" type="text/css" media="screen" rel="stylesheet"  />
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/cloud-zoom.css" rel="stylesheet">
+<link href="css/portfolio.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/a.css">  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+      <!-- Script for smooth scroll -->
+    <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!-- fav -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+</head>
+<body>
+<!-- Header Start -->
+<header id="scrolltotal">
+   <div class="headerstrip navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12"> <a href="index.html" class="logo pull-left"><img src="img/logo.png" alt="SimpleOne" title="SimpleOne"></a> 
+                    <!-- Top Nav Start -->
+                    <div class="pull-left">
+                        <form class="form-search top-search">
+                            <input type="text" class="input-medium search-query" placeholder="Search Here…">
+                        </form>
+                    </div>
+
+
+
+
+                    <div class="pull-right">
+                        <div class="navbar" id="topnav">
+                            <div class="navbar-inner">
+                                <ul class="nav" >
+                                    <li><a class="home" href="#">Sell</a> </li>
+                                    <li><a class="shoppingcart" href="#">Buy</a> </li>
+                                    <li><a class="checkout" href="#">Category</a> </li>
+                                    <li><a class="myaccount" href="#">Login/Signup</a> </li>
+
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Nav End -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br> </br> <!--  To show the cart menu-->
+    
+
+    <div class="container">
+        <div class="headerdetails">
+
+         
+
+
+           
+            <div class="pull-right">
+                <ul class="nav topcart pull-left">
+                    <li class="dropdown hover carticon "> <a href="#" class="dropdown-toggle" > Shopping Cart <span class="label label-orange font14">1 item(s)</span> - $589.50 <b class="caret"></b></a>
+                        <ul class="dropdown-menu topcartopen ">
+                            <li>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="image"><a href="product.html"><img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product"></a></td>
+                                            <td class="name"><a href="product.html">MacBook</a></td>
+                                            <td class="quantity">x&nbsp;1</td>
+                                            <td class="total">$589.50</td>
+                                            <td class="remove"><i class="icon-remove"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="image"><a href="product.html"><img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product"></a></td>
+                                            <td class="name"><a href="product.html">MacBook</a></td>
+                                            <td class="quantity">x&nbsp;1</td>
+                                            <td class="total">$589.50</td>
+                                            <td class="remove"><i class="icon-remove "></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="textright"><b>Sub-Total:</b></td>
+                                            <td class="textright">$500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="textright"><b>Eco Tax (-2.00):</b></td>
+                                            <td class="textright">$2.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="textright"><b>VAT (17.5%):</b></td>
+                                            <td class="textright">$87.50</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="textright"><b>Total:</b></td>
+                                            <td class="textright">$589.50</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="well pull-right buttonwrap"> <a class="btn btn-orange" href="#">View Cart</a> <a class="btn btn-orange" href="#">Checkout</a> </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+   
+</header>
+
+<br> </br>
+<!-- Header End -->
+
+
+
+  <!-- SideBar -->
+    <div id="left_panel" class="">
+                <ul id="leftmenulink">
+                    <li style="background: none repeat scroll 0% 0% rgb(36, 36, 36);" class="menutitle Home"><a style="background-position: -12px 1px;" href="http://gaana.com/" class="history" id="home"><span class="orange">Home</span></a>
+                    </li>
+                    <li class="menutitle Radios"><a href="javascript:void(0)" class="history" id="l-radio"><span class="menu">My Books</span></a>
+                    </li>
+                    <li class="menutitle Browse"><a href="javascript:void(0)" class="history" id="browse"><span class="menu">My orders</span></a>
+
+                    </li>
+                    <li class="menutitle Discover"><a href="http://gaana.com/discover" class="history" id="discover"><span class="menu">Colleges</span></a>
+                    </li>
+                    <li class="menutitle Apps"><a href="http://gaana.com/apps" class="history" id="settings"><span class="menu">Apps</span></a>
+                    </li>
+                    <li class="menutitle My Favorites"><a href="javascript:void(0)" class="history" id="favorite_left"><span class="menu">My Favorites</span></a>
+                    </li>
+                    <li class="menutitle Friends Activity"><a href="http://gaana.com/my_friends_activity" class="history" id="friends"><span class="menu">New Books</span></a>
+                    </li>
+                    <li class="menutitle More"><a href="javascript:void(0)" class="history" id="moregaana"><span class="menu">More</span></a>
+                    </li>
+                    <li class="menutitle Create Playlist"><a href="javascript:void(0)" class="history" id="createplaylist"><span class="menu">Create wishlist</span></a>
+                    </li>
+                </ul>
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="maincontainer">
+  <!-- Slider Start-->
+  <section class="slider">
+    <div class="container">
+      <div class="html_carousel">
+        <div id="mainslider2">
+          <div class="slide">
+            <img src="img/banner1.jpg" alt="" />
+            <div>
+              <h4>Slider1</h4>
+              <p>Awesome Html5 Responsive Ecommerce Template</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/banner2.jpg" alt="" />
+            <div>
+              <h4>Slider2</h4>
+              <p>Build With Twitter Bootstrap, Html5, CSS3, jquery</p>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/banner1.jpg" alt="" />
+            <div>
+              <h4>Slider3</h4>
+              <p>Diffrent type of Home page layout  & Slider option</p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="thumbnails" id="mainslider2_pag"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Slider End-->
+  
+  <!-- Section Start-->
+  <section class="container otherddetails">
+    <div class="otherddetailspart">
+      <div class="innerclass free">
+        <h2>No Delivery Charges</h2>
+        Get books from your own college </div>
+    </div>
+    <div class="otherddetailspart">
+      <div class="innerclass payment">
+        <h2>Easy Payment</h2>
+        Payment Gatway support </div>
+    </div>
+    <div class="otherddetailspart">
+      <div class="innerclass shipping">
+        <h2>24hrs Order policy</h2>
+         Use our Online App to explore book kingdom</div>
+    </div>
+    <div class="otherddetailspart">
+      <div class="innerclass choice">
+        <h2>Over 50 Colleges and firms</h2>
+        50,00+ Books </div>
+    </div>
+  </section>
+  <!-- Section End-->
+  
+   <!--  Featured Products-->
+  <section id="related" class="row mt40">
+    <div class="container">
+      <h1 class="heading1"><span class="maintext"> Popular in your College</span><span class="subtext"> See Our Most featured Products</span></h1>
+      <ul class="thumbnails">
+         <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+       <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+         <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+          <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+      </ul>
+    </div>
+  </section>
+ 
+<!--  Latest Products-->
+  <section id="related" class="row mt40">
+    <div class="container">
+      <h1 class="heading1"><span class="maintext"> Recently Added</span><span class="subtext"> See Our Recently Added Products</span></h1>
+      <ul class="thumbnails">
+         <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+       <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+         <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+          <li class="col-lg-3 col-sm-3">
+                      <a class="prdocutname" href="product.html">Micro Electronics</a>
+                      <div class="thumbnail">
+                        <span class="sale tooltip-test">Sale</span>
+                        <a href="product.html"><img alt="" src="img/product1.jpg"></a>
+                        <div class="shortlinks">
+                          <!-- <a class="details" href="#">DETAILS</a>
+                               <a class="wishlist" href="#">WISHLIST</a>
+                               <a class="compare" href="#">COMPARE</a>
+                             -->
+                             <a href="#"> See All Online Sellers </a>
+                        </div>
+                        <div class="pricetag">
+                          <span class="spiral"></span><a href="#" class="productcart">ADD TO CART</a>
+                          <div class="price">
+                            <div class="pricenew">Rs410.00</div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+      </ul>
+    </div>
+  </section>
+   
+  <!-- Associated Colleges and Firms-->
+  <section id="popularbrands" class="container mt40">
+    <div class="row">
+      <div class="col-lg-3  col-sm-12">
+        <h1 class="heading1"><span class="maintext">Our Associates</span>
+          <br>
+          <span class="subtext"> See Our associated colleges and firms</span></h1>
+      </div>
+      <div class="brandcarousalrelative col-lg-9 col-sm-12">
+        <ul id="brandcarousal">
+          <li><img src="img/brand1.jpg" alt="" title=""/></li>
+          <li><img src="img/brand2.jpg" alt="" title=""/></li>
+          <li><img src="img/brand3.jpg" alt="" title=""/></li>
+          <li><img src="img/brand4.jpg" alt="" title=""/></li>
+          <li><img src="img/brand1.jpg" alt="" title=""/></li>
+          <li><img src="img/brand2.jpg" alt="" title=""/></li>
+          <li><img src="img/brand3.jpg" alt="" title=""/></li>
+          <li><img src="img/brand4.jpg" alt="" title=""/></li>
+          <li><img src="img/brand1.jpg" alt="" title=""/></li>
+          <li><img src="img/brand2.jpg" alt="" title=""/></li>
+          <li><img src="img/brand3.jpg" alt="" title=""/></li>
+          <li><img src="img/brand4.jpg" alt="" title=""/></li>
+        </ul>
+        <div class="clearfix"></div>
+        <a id="prev" class="prev" href="#">&lt;</a>
+        <a id="next" class="next" href="#">&gt;</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- College Signup-->
+  <section id="newslettersignup mt40">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="pull-left newsletter2">
+            <h1 class="heading1"><span class="maintext">Associate Now</span>
+              <br>
+              <span class="subtext">
+              & get the TheCollegeStore in your college </span></h1>
+          </div>
+        </div>
+        <div class="pull-right col-lg-9">
+          <form class="form-horizontal mt20">
+            <div class="input-prepend">
+              <input type="text" placeholder="Subscribe to TheCollegeStore" id="inputIcon" class="input-xlarge">
+              <input value="Subscribe" class="btn btn-orange" type="submit">
+              Sign in
+            
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="clearfix"></div>
+<!-- /maincontainer -->
+<!-- Footer -->
+<footer id="footer">
+  <section class="footersocial">
+    <div class="container">
+      <div class="row">
+       <div class="col-lg-3 aboutus col-sm-6">
+           <h2>Testimonial 1 </h2>
+          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
+            <br>
+            t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        </div>
+        <div class="col-lg-3 contact col-sm-6">
+          <h2>Testimonial 2 </h2>
+           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
+            <br>
+            t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+        </div>
+        <div class="col-lg-3 contact col-sm-6">
+          <h2>Testimonial 3 </h2>
+           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
+            <br>
+            t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+        </div>
+        <div class="col-lg-3 contact col-sm-6">
+          <h2>Testimonial 4 </h2>
+           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>
+            <br>
+            t has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+
+        </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <section class="footerlinks">
+    <div class="container">
+      <div class="info">
+        <ul>
+          <li><a href="#">Privacy Policy</a>
+          </li>
+          <li><a href="#">Terms &amp; Conditions</a>
+          </li>
+          <li><a href="#">Affiliates</a>
+          </li>
+          <li><a href="#">Newsletter</a>
+          </li>
+        </ul>
+      </div>
+      <div id="footersocial">
+        <a href="#" title="Facebook" class="facebook">Facebook</a>
+        <a href="#" title="Twitter" class="twitter">Twitter</a>
+        <a href="#" title="Linkedin" class="linkedin">Linkedin</a>
+        <a href="#" title="rss" class="rss">rss</a>
+        <a href="#" title="Googleplus" class="googleplus">Googleplus</a>
+        <a href="#" title="Skype" class="skype">Skype</a>
+        <a href="#" title="Flickr" class="flickr">Flickr</a>
+      </div>
+    </div>
+  </section>
+  <section class="copyrightbottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6"> All images are copyright to their owners. </div>
+        <div class="col-lg-6 textright"> ShopSimple @ 2012 </div>
+      </div>
+    </div>
+  </section>
+  <a id="gotop" href="#scrolltotal"></a>
+</footer>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/respond.min.js"></script> 
+<script src="js/application.js"></script> 
+<script src="js/bootstrap-tooltip.js"></script> 
+<script defer src="js/jquery.fancybox.js"></script> 
+<script defer src="js/jquery.flexslider.js"></script> 
+<script type="text/javascript" src="js/jquery.tweet.js"></script> 
+<script  src="js/cloud-zoom.1.0.2.js"></script> 
+<script  type="text/javascript" src="js/jquery.validate.js"></script> 
+<script type="text/javascript"  src="js/jquery.carouFredSel-6.1.0-packed.js"></script> 
+<script type="text/javascript"  src="js/jquery.mousewheel.min.js"></script> 
+<script type="text/javascript"  src="js/jquery.touchSwipe.min.js"></script> 
+<script type="text/javascript"  src="js/jquery.ba-throttle-debounce.min.js"></script> 
+<script src="js/jquery.isotope.min.js"></script> 
+<script defer src="js/custom.js"></script>
+</body>
+</html>
